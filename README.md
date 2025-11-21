@@ -7,6 +7,7 @@ Proyek ini mengoptimasi model **FaceNet** dan **RetinaFace** menggunakan **Tenso
 ## 📋 Daftar Isi
 
 - [Instalasi](#-instalasi)
+- [Versi](#-version)
 - [Struktur Proyek](#-struktur-proyek)
 - [Cara Penggunaan](#-cara-penggunaan)
 - [Hasil Benchmark](#-hasil-benchmark)
@@ -53,6 +54,15 @@ Buka browser dan akses:
 http://localhost:8888
 ```
 Masukkan token yang muncul di logs.
+
+---
+
+##  Version
+
+- CUDA 11.8
+- Python 3.11
+- Tensorflow 2.14
+- cudnn8
 
 ---
 
@@ -188,5 +198,6 @@ TensorRT punya aturan main
  - Hal ini tidak menjadi masalah pada Facenet TensorRT karena sudah dipreprocess sedemikian rupa sehingga input pasti adalah (1,160,160,3)
  - Menjadi masalah pada retinaface karena input foto yang kita gunakan bisa banyak ukuran
 ---
+
 
 
