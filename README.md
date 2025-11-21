@@ -7,7 +7,7 @@ Proyek ini mengoptimasi model **FaceNet** dan **RetinaFace** menggunakan **Tenso
 ## 📋 Daftar Isi
 
 - [Instalasi](#-instalasi)
-- [Version](#-version)
+- [Version](#version)
 - [Struktur Proyek](#-struktur-proyek)
 - [Cara Penggunaan](#-cara-penggunaan)
 - [Hasil Benchmark](#-hasil-benchmark)
@@ -198,6 +198,7 @@ TensorRT punya aturan main
  - Hal ini tidak menjadi masalah pada Facenet TensorRT karena sudah dipreprocess sedemikian rupa sehingga input pasti adalah (1,160,160,3)
  - Menjadi masalah pada retinaface karena input foto yang kita gunakan bisa banyak ukuran
 ---
+
 
 
 
