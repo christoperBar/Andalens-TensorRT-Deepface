@@ -57,7 +57,7 @@ Masukkan token yang muncul di logs.
 
 ---
 
-##  Version
+## Version
 
 - CUDA 11.8
 - Python 3.11
@@ -198,6 +198,7 @@ TensorRT punya aturan main
  - Hal ini tidak menjadi masalah pada Facenet TensorRT karena sudah dipreprocess sedemikian rupa sehingga input pasti adalah (1,160,160,3)
  - Menjadi masalah pada retinaface karena input foto yang kita gunakan bisa banyak ukuran
 ---
+
 
 
 
