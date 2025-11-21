@@ -150,7 +150,7 @@ results = batch_representfp16(img_files)
 |-------|-------------------|
 | TF-TRT FP16 | 0.0218 sec |
 
-### Batch Processing (1001 wajah)
+### Batch Processing (beberapa wajah)
 
 | Pipeline | Total Time | Breakdown |
 |----------|-----------|-----------|
@@ -188,4 +188,5 @@ TensorRT punya aturan main
  - Hal ini tidak menjadi masalah pada Facenet TensorRT karena sudah dipreprocess sedemikian rupa sehingga input pasti adalah (1,160,160,3)
  - Menjadi masalah pada retinaface karena input foto yang kita gunakan bisa banyak ukuran
 ---
+
 
