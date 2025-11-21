@@ -1,0 +1,25 @@
+# Atribut 'version' sudah usang, jadi kita hapus sesuai peringatan
+services:
+  jupyter-cuda:
+    # GANTI 'image' DENGAN 'build'
+    # Tanda '.' berarti "gunakan Dockerfile di folder ini"
+    build: .
+    
+    container_name: jupyter-cuda-service
+
+    ports:
+      - "8888:8888"
+
+    volumes:
+      - .:/workspace
+
+    stdin_open: true
+    tty: true
+
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
